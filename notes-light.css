@@ -1,17 +1,17 @@
-@import './notes/codeblock.xylight.css';
+@import './notes-light/codeblock.xylight.css';
 
 @font-face {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: normal;
-  src: local("Ubuntu Regular"), url("./notes/ubuntu.ttf") format("truetype");
+  src: local("Ubuntu Regular"), url("./notes-light/ubuntu.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: normal;
-  src: local("Ubuntu Italic"), url("./notes/ubuntu-italic.ttf") format("truetype");
+  src: local("Ubuntu Italic"), url("./notes-light/ubuntu-italic.ttf") format("truetype");
 }
 
 
