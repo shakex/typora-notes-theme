@@ -14,6 +14,21 @@
   src: local("Ubuntu Italic"), url("./notes-light/ubuntu-italic.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: 'SF Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Mono Regular"), url("./notes-light/SFMonoRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'SF Mono';
+  font-style: italic;
+  font-weight: normal;
+  src: local("SF Mono Italic"), url("./notes-light/SFMonoRegularItalic.woff") format("woff");
+}
+
+
 
 :root {
   --primary-color: #EBB73A;
@@ -42,7 +57,7 @@
 
   --font-size: 15px;
   --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
-  --monospace: 'Ubuntu', 'Cousine', 'Consolas', monospace;
+  --monospace: 'Ubuntu', 'SF Mono', 'Cousine', 'Consolas', monospace;
 
   --heading-char-color: var(--light-trait-400);
   --color-popover-bg-color: var(--text-color);

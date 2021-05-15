@@ -22,7 +22,7 @@ A typora theme inspired by [**Apple Notes**](https://support.apple.com/guide/not
 
 - [ ] Put `notes-dark.css` and `notes-dark/` folder into the opened folder, make sure your css files are directory under that directory.
 
-- [ ] Restart typora. choose `Note Dark` theme and enjoy. 🤗
+- [ ] Restart typora. choose `Notes Dark` theme and enjoy. 🤗
 
 
 
