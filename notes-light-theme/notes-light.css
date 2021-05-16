@@ -74,6 +74,12 @@
   --focus-ring-color: transparent;
   --table-bg-darker-color: var(--bg-color-dark);
   --table-bg-color: var(--bg-color);
+
+  /* graph */
+  --mermaid-theme: neutral;
+  --mermaid-sequence-numbers: on;
+  --mermaid-flowchart-curve: basis;
+  --sequence-theme: hand;
 }
 
 
@@ -600,4 +606,9 @@ code {
 
 .typora-sourceview-on #toggle-sourceview-btn {
   background-color: var(--bg-color-dark);
+}
+
+/* print */
+@media print {
+  body {font-size: 10px !important;}
 }
