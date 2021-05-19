@@ -14,6 +14,20 @@
   src: local("Ubuntu Italic"), url("./notes-dark/ubuntu-italic.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: 'SF Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Mono Regular"), url("./notes-dark/SFMonoRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'SF Mono';
+  font-style: italic;
+  font-weight: normal;
+  src: local("SF Mono Italic"), url("./notes-dark/SFMonoRegularItalic.woff") format("woff");
+}
+
 :root {
   --primary-color: #EBB73A;
   --primary-color-rgb: 252, 186, 3;
@@ -38,9 +52,9 @@
 
   --border-radius: 3px;
 
-  --font-size: 14px;
+  --font-size: 13.5px;
   --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
-  --monospace: 'Ubuntu', 'Cousine', 'Consolas', monospace;
+  --monospace: 'Ubuntu', 'SF Mono', 'Cousine', 'Consolas', monospace;
 
   --heading-char-color: var(--light-trait-400);
   --color-popover-bg-color: var(--text-color);
@@ -118,6 +132,8 @@ h6 {
   font-weight: bold;
   line-height: 1.4;
   cursor: text;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 h1:hover a.anchor,
@@ -148,24 +164,33 @@ h1 {
   /* padding-bottom: 0.3em; */
   font-size: 1.8em;
   font-weight: bolder;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em
 }
 
 h2 {
   /* padding-bottom: 0.3em; */
   font-size: 1.5em;
   font-weight: bolder;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.2em
 }
 
 h3 {
   font-size: 1.2em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.1em
 }
 
 h4 {
   font-size: 1em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.1em
 }
 
 h5 {
   font-size: 1em;
+  margin-block-start: 0.5em;
 }
 
 h6 {
@@ -312,12 +337,13 @@ tt {
   border-radius: var(--border-radius);
   padding: 2px 4px 0px 4px;
   font-size: 1em;
+  font-weight: normal;
   font-family: var(--monospace);
 }
 
 .md-fences {
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   padding-top: 8px;
   padding-bottom: 6px;
   background-color: var(--side-bar-bg-color);
