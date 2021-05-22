@@ -28,7 +28,7 @@ A typora theme inspired by [**Apple Notes**](https://support.apple.com/guide/not
 
 ## 💡Spotlight
 
-### *Darcula-look* syntx highlighting
+### *Darcula-look* syntax highlighting
 
 ```python
 # syntax highlighting inspired from Darcula
@@ -67,15 +67,4 @@ class LeNet5(BaseBackbone):
         return x
 ```
 
-
-
-## Changelog
-
-- v0.1(beta) @ 20210515, Modification from [adesurirey](https://github.com/adesurirey)/**[typora-notes-dark-theme](https://github.com/adesurirey/typora-notes-dark-theme)**, add *darcula-look* syntx highlighting.
-
-
-
-## License
-
-This project is released under the [Apache 2.0 license](LICENSE).
 

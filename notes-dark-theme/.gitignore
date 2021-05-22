@@ -1,3 +1,2 @@
 .DS_Store
-test/html-preview/theme/*
-!test/html-preview/theme/default
+.gitmodules
